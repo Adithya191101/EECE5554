@@ -1,0 +1,1677 @@
+header:
+  stamp:
+    sec: 82323
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340305
+longitude: -71.08883666666667
+altitude: 11.2
+utm_easting: 327928.69048138
+utm_northing: 4689674.124978848
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82324
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340295
+longitude: -71.08883333333333
+altitude: 11.3
+utm_easting: 327928.93780297984
+utm_northing: 4689673.007808725
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82325
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340285
+longitude: -71.08883666666667
+altitude: 11.3
+utm_easting: 327928.63592406316
+utm_northing: 4689671.904130244
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82326
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34028
+longitude: -71.08884166666667
+altitude: 11.4
+utm_easting: 327928.2103842435
+utm_northing: 4689671.3590368405
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82327
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340273333333336
+longitude: -71.08885
+altitude: 11.4
+utm_easting: 327927.5056975413
+utm_northing: 4689670.635618607
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82328
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340266666666665
+longitude: -71.08886
+altitude: 11.4
+utm_easting: 327926.6637105033
+utm_northing: 4689669.915573388
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82329
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34026166666666
+longitude: -71.08887166666666
+altitude: 11.5
+utm_easting: 327925.6889696002
+utm_northing: 4689669.383971948
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82330
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340255
+longitude: -71.08888166666667
+altitude: 11.5
+utm_easting: 327924.84698222403
+utm_northing: 4689668.6639269395
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82331
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340246666666665
+longitude: -71.08889166666667
+altitude: 11.5
+utm_easting: 327924.0004481124
+utm_northing: 4689667.758811313
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82332
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34024
+longitude: -71.08890166666667
+altitude: 11.6
+utm_easting: 327923.15846037003
+utm_northing: 4689667.038766497
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82333
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34023333333333
+longitude: -71.08891333333334
+altitude: 11.6
+utm_easting: 327922.1791721877
+utm_northing: 4689666.322094812
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82334
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34023
+longitude: -71.08892666666667
+altitude: 11.6
+utm_easting: 327921.07167679025
+utm_northing: 4689665.978937746
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82335
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340225
+longitude: -71.08893666666667
+altitude: 11.7
+utm_easting: 327920.2342351818
+utm_northing: 4689665.443963988
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82336
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34022
+longitude: -71.08894666666667
+altitude: 11.7
+utm_easting: 327919.3967934455
+utm_northing: 4689664.908990324
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82337
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34021333333333
+longitude: -71.08895333333334
+altitude: 11.7
+utm_easting: 327918.82940550067
+utm_northing: 4689664.182199836
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82338
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34020833333334
+longitude: -71.08896333333334
+altitude: 11.7
+utm_easting: 327917.99196350516
+utm_northing: 4689663.647226335
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82339
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340205
+longitude: -71.08897666666667
+altitude: 11.7
+utm_easting: 327916.8844674552
+utm_northing: 4689663.304069912
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82340
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.3402
+longitude: -71.08898833333333
+altitude: 11.7
+utm_easting: 327915.90972485853
+utm_northing: 4689662.772469792
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82341
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34019333333333
+longitude: -71.089
+altitude: 11.7
+utm_easting: 327914.930435322
+utm_northing: 4689662.055799085
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82342
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340185
+longitude: -71.08901
+altitude: 11.7
+utm_easting: 327914.0838991364
+utm_northing: 4689661.150684602
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82343
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34018
+longitude: -71.08902
+altitude: 11.8
+utm_easting: 327913.2464564048
+utm_northing: 4689660.615711648
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82344
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34017333333333
+longitude: -71.08903166666667
+altitude: 11.8
+utm_easting: 327912.26716629043
+utm_northing: 4689659.899041299
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82345
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34016833333333
+longitude: -71.08904333333334
+altitude: 11.8
+utm_easting: 327911.29242285644
+utm_northing: 4689659.367441799
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82346
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34016166666667
+longitude: -71.089055
+altitude: 11.8
+utm_easting: 327910.3131323635
+utm_northing: 4689658.650771713
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82347
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340156666666665
+longitude: -71.08906833333333
+altitude: 11.8
+utm_easting: 327909.20108816924
+utm_northing: 4689658.122545757
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82348
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34014833333333
+longitude: -71.08908
+altitude: 11.8
+utm_easting: 327908.2172503227
+utm_northing: 4689657.220805239
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82349
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34014
+longitude: -71.08909333333334
+altitude: 11.8
+utm_easting: 327907.0961117526
+utm_northing: 4689656.322438177
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82350
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340135
+longitude: -71.089105
+altitude: 11.8
+utm_easting: 327906.1213674125
+utm_northing: 4689655.79083937
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82351
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34012833333333
+longitude: -71.089115
+altitude: 11.8
+utm_easting: 327905.2793763799
+utm_northing: 4689655.07079662
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82352
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34012166666667
+longitude: -71.089125
+altitude: 11.8
+utm_easting: 327904.4373851748
+utm_northing: 4689654.350753967
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82353
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340115
+longitude: -71.08913666666666
+altitude: 11.8
+utm_easting: 327903.4580932701
+utm_northing: 4689653.634084803
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82354
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34011
+longitude: -71.08914833333333
+altitude: 11.7
+utm_easting: 327902.4833482695
+utm_northing: 4689653.1024864875
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82355
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340105
+longitude: -71.08916
+altitude: 11.7
+utm_easting: 327901.5086031171
+utm_northing: 4689652.570888302
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82356
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34009833333333
+longitude: -71.08917166666667
+altitude: 11.7
+utm_easting: 327900.52931065694
+utm_northing: 4689651.854219534
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82357
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340093333333336
+longitude: -71.089185
+altitude: 11.7
+utm_easting: 327899.41726460314
+utm_northing: 4689651.325995084
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82358
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340085
+longitude: -71.0892
+altitude: 11.7
+utm_easting: 327898.15882335685
+utm_northing: 4689650.431002873
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82359
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34008
+longitude: -71.08921333333333
+altitude: 11.7
+utm_easting: 327897.046776887
+utm_northing: 4689649.902778787
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82360
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340073333333336
+longitude: -71.08922666666666
+altitude: 11.7
+utm_easting: 327895.93018296995
+utm_northing: 4689649.1894841585
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82361
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340066666666665
+longitude: -71.08924
+altitude: 11.7
+utm_easting: 327894.8135888199
+utm_northing: 4689648.476189704
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82362
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34007
+longitude: -71.08925666666667
+altitude: 11.8
+utm_easting: 327893.4496771748
+utm_northing: 4689648.880066881
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82363
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340068333333335
+longitude: -71.08927
+altitude: 11.9
+utm_easting: 327892.34672480973
+utm_northing: 4689648.721984959
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82364
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340065
+longitude: -71.08928166666666
+altitude: 12.0
+utm_easting: 327891.376525623
+utm_northing: 4689648.375458864
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82365
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34006333333333
+longitude: -71.089295
+altitude: 12.2
+utm_easting: 327890.2735731109
+utm_northing: 4689648.217377263
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82366
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34005833333333
+longitude: -71.08930666666667
+altitude: 12.3
+utm_easting: 327889.298826292
+utm_northing: 4689647.685780732
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82367
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34005333333333
+longitude: -71.08931666666666
+altitude: 12.4
+utm_easting: 327888.46137998416
+utm_northing: 4689647.150810649
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82368
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340048333333336
+longitude: -71.08932666666666
+altitude: 12.4
+utm_easting: 327887.6239335465
+utm_northing: 4689646.615840661
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82369
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340045
+longitude: -71.08933333333333
+altitude: 12.5
+utm_easting: 327887.06563584774
+utm_northing: 4689646.259194057
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82370
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340041666666664
+longitude: -71.08934333333333
+altitude: 12.5
+utm_easting: 327886.23273671826
+utm_northing: 4689645.909294946
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82371
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34003833333333
+longitude: -71.08935166666667
+altitude: 12.5
+utm_easting: 327885.5371381934
+utm_northing: 4689645.556022188
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82372
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340035
+longitude: -71.08936166666666
+altitude: 12.6
+utm_easting: 327884.70423889713
+utm_northing: 4689645.206123252
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82373
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34003166666667
+longitude: -71.089375
+altitude: 12.8
+utm_easting: 327883.5967380923
+utm_northing: 4689644.862971971
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82374
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340028333333336
+longitude: -71.08938833333333
+altitude: 12.9
+utm_easting: 327882.4892371752
+utm_northing: 4689644.519820859
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82375
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340023333333335
+longitude: -71.0894
+altitude: 13.0
+utm_easting: 327881.51448921626
+utm_northing: 4689643.988225382
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82376
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34001833333333
+longitude: -71.089415
+altitude: 13.1
+utm_easting: 327880.26513962535
+utm_northing: 4689643.463377719
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82377
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34001333333333
+longitude: -71.08942333333333
+altitude: 13.2
+utm_easting: 327879.56499284273
+utm_northing: 4689642.925034825
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82378
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.34000666666667
+longitude: -71.08943333333333
+altitude: 13.3
+utm_easting: 327878.7229974724
+utm_northing: 4689642.204995153
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82379
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.340001666666666
+longitude: -71.089445
+altitude: 13.4
+utm_easting: 327877.748248892
+utm_northing: 4689641.673400184
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82380
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339996666666664
+longitude: -71.08945833333334
+altitude: 13.5
+utm_easting: 327876.63619937206
+utm_northing: 4689641.145179258
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82381
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33999166666667
+longitude: -71.08947166666667
+altitude: 13.6
+utm_easting: 327875.5241496804
+utm_northing: 4689640.6169585055
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82382
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33998666666667
+longitude: -71.089485
+altitude: 13.6
+utm_easting: 327874.4120998148
+utm_northing: 4689640.088737925
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82383
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33998166666667
+longitude: -71.0895
+altitude: 13.6
+utm_easting: 327873.16274895467
+utm_northing: 4689639.563891495
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82384
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339976666666665
+longitude: -71.08951333333333
+altitude: 13.7
+utm_easting: 327872.0506987304
+utm_northing: 4689639.035671279
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82385
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33997
+longitude: -71.08953
+altitude: 13.6
+utm_easting: 327870.65949872375
+utm_northing: 4689638.329128573
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82386
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339965
+longitude: -71.08954333333334
+altitude: 13.6
+utm_easting: 327869.547448099
+utm_northing: 4689637.800908743
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82387
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339958333333335
+longitude: -71.08955833333333
+altitude: 13.6
+utm_easting: 327868.29354845034
+utm_northing: 4689637.090992444
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82388
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339955
+longitude: -71.08957166666667
+altitude: 13.6
+utm_easting: 327867.18604545284
+utm_northing: 4689636.747843698
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82389
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339951666666664
+longitude: -71.08958666666666
+altitude: 13.6
+utm_easting: 327865.9412414562
+utm_northing: 4689636.40806924
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82390
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339951666666664
+longitude: -71.08960333333333
+altitude: 13.9
+utm_easting: 327864.5682326006
+utm_northing: 4689636.441810578
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82391
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339953333333334
+longitude: -71.08962166666667
+altitude: 14.3
+utm_easting: 327863.06247097993
+utm_northing: 4689636.663997078
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82392
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33994666666667
+longitude: -71.08963333333334
+altitude: 14.3
+utm_easting: 327862.08317221
+utm_northing: 4689635.947333518
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82393
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33994166666667
+longitude: -71.08964333333333
+altitude: 14.3
+utm_easting: 327861.2457223206
+utm_northing: 4689635.412366594
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82394
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339935
+longitude: -71.08965333333333
+altitude: 14.3
+utm_easting: 327860.40372411034
+utm_northing: 4689634.692329049
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82395
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33993
+longitude: -71.08966666666667
+altitude: 14.4
+utm_easting: 327859.29167207057
+utm_northing: 4689634.16411081
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82396
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339925
+longitude: -71.08967833333334
+altitude: 14.5
+utm_easting: 327858.3169208026
+utm_northing: 4689633.632518476
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82397
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33992
+longitude: -71.08969166666667
+altitude: 14.6
+utm_easting: 327857.20486842806
+utm_northing: 4689633.1043005595
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82398
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339915
+longitude: -71.089705
+altitude: 14.6
+utm_easting: 327856.09281587985
+utm_northing: 4689632.5760828145
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82399
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33991
+longitude: -71.08971833333334
+altitude: 14.7
+utm_easting: 327854.9807631556
+utm_northing: 4689632.047865245
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82400
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339905
+longitude: -71.08973
+altitude: 14.7
+utm_easting: 327854.00601124717
+utm_northing: 4689631.51627349
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82401
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.3399
+longitude: -71.08974333333333
+altitude: 14.7
+utm_easting: 327852.89395819034
+utm_northing: 4689630.98805624
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82402
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339895
+longitude: -71.089755
+altitude: 14.8
+utm_easting: 327851.9192059671
+utm_northing: 4689630.456464769
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82403
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33989
+longitude: -71.08976833333334
+altitude: 14.8
+utm_easting: 327850.8071525695
+utm_northing: 4689629.928247843
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82404
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339886666666665
+longitude: -71.089785
+altitude: 14.8
+utm_easting: 327849.4250454082
+utm_northing: 4689629.591850678
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82405
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33988166666666
+longitude: -71.08979833333333
+altitude: 14.8
+utm_easting: 327848.31299167156
+utm_northing: 4689629.063634139
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82406
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339875
+longitude: -71.08981
+altitude: 14.8
+utm_easting: 327847.333690284
+utm_northing: 4689628.346972573
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82407
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33987
+longitude: -71.08982166666667
+altitude: 14.9
+utm_easting: 327846.35893724865
+utm_northing: 4689627.815381854
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82408
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339865
+longitude: -71.089835
+altitude: 14.9
+utm_easting: 327845.2468829816
+utm_northing: 4689627.287165787
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82409
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33985833333333
+longitude: -71.08984666666667
+altitude: 14.9
+utm_easting: 327844.2675810241
+utm_northing: 4689626.570504634
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82410
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33985
+longitude: -71.08985833333334
+altitude: 14.9
+utm_easting: 327843.28373023483
+utm_northing: 4689625.668772896
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82411
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339843333333334
+longitude: -71.08987166666667
+altitude: 14.9
+utm_easting: 327842.167126726
+utm_northing: 4689624.955486586
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82412
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33983666666666
+longitude: -71.089885
+altitude: 14.8
+utm_easting: 327841.05052298633
+utm_northing: 4689624.242200448
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82413
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33982833333334
+longitude: -71.08989666666666
+altitude: 14.7
+utm_easting: 327840.0666714564
+utm_northing: 4689623.340469144
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82414
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339821666666666
+longitude: -71.08991
+altitude: 14.7
+utm_easting: 327838.9500672388
+utm_northing: 4689622.627183327
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82415
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339816666666664
+longitude: -71.08992166666667
+altitude: 14.6
+utm_easting: 327837.97531274264
+utm_northing: 4689622.095593738
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82416
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33981166666667
+longitude: -71.089935
+altitude: 14.4
+utm_easting: 327836.8632569041
+utm_northing: 4689621.567378961
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82417
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33980833333333
+longitude: -71.08994666666666
+altitude: 14.3
+utm_easting: 327835.89305091184
+utm_northing: 4689621.220860368
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82418
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339801666666666
+longitude: -71.08995833333333
+altitude: 14.2
+utm_easting: 327834.9137471304
+utm_northing: 4689620.504200476
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82419
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339798333333334
+longitude: -71.08997
+altitude: 14.2
+utm_easting: 327833.9435408844
+utm_northing: 4689620.157682148
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82420
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339795
+longitude: -71.08998166666667
+altitude: 14.1
+utm_easting: 327832.97333453654
+utm_northing: 4689619.811163951
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82421
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33978666666667
+longitude: -71.089995
+altitude: 14.1
+utm_easting: 327831.8521800833
+utm_northing: 4689618.912808515
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82422
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33978166666667
+longitude: -71.09001
+altitude: 14.1
+utm_easting: 327830.60282198293
+utm_northing: 4689618.387969484
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82423
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339775
+longitude: -71.09002333333333
+altitude: 14.1
+utm_easting: 327829.48621597537
+utm_northing: 4689617.674685129
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82424
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33977
+longitude: -71.090035
+altitude: 14.1
+utm_easting: 327828.51146003243
+utm_northing: 4689617.143096819
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82425
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339765
+longitude: -71.09004666666667
+altitude: 14.0
+utm_easting: 327827.5367039397
+utm_northing: 4689616.611508638
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82426
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33976
+longitude: -71.09006
+altitude: 14.0
+utm_easting: 327826.4246463848
+utm_northing: 4689616.083295473
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82427
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339755
+longitude: -71.09007333333334
+altitude: 13.9
+utm_easting: 327825.31258865603
+utm_northing: 4689615.555082479
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82428
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33974666666667
+longitude: -71.09008666666666
+altitude: 13.8
+utm_easting: 327824.19143252063
+utm_northing: 4689614.656728226
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82429
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33974
+longitude: -71.09009833333333
+altitude: 13.8
+utm_easting: 327823.2121265921
+utm_northing: 4689613.940069914
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82430
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339733333333335
+longitude: -71.09011
+altitude: 14.0
+utm_easting: 327822.23282046197
+utm_northing: 4689613.223411733
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82431
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339726666666664
+longitude: -71.09012166666666
+altitude: 14.1
+utm_easting: 327821.2535141302
+utm_northing: 4689612.506753685
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82432
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33972333333333
+longitude: -71.090135
+altitude: 14.0
+utm_easting: 327820.14600464364
+utm_northing: 4689612.163612201
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82433
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33971666666667
+longitude: -71.09015
+altitude: 13.9
+utm_easting: 327818.8920951409
+utm_northing: 4689611.453704486
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82434
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33971
+longitude: -71.090165
+altitude: 13.9
+utm_easting: 327817.63818537805
+utm_northing: 4689610.743796988
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82435
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33970333333333
+longitude: -71.09017833333333
+altitude: 13.9
+utm_easting: 327816.5215767833
+utm_northing: 4689610.030514633
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82436
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33969666666667
+longitude: -71.09019333333333
+altitude: 13.9
+utm_easting: 327815.2676665147
+utm_northing: 4689609.320607549
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82437
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33969166666667
+longitude: -71.09020666666666
+altitude: 13.8
+utm_easting: 327814.1556068184
+utm_northing: 4689608.792396273
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82438
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33968333333333
+longitude: -71.09021833333334
+altitude: 13.9
+utm_easting: 327813.171749618
+utm_northing: 4689607.890668599
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82439
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33967333333333
+longitude: -71.09023
+altitude: 13.8
+utm_easting: 327812.18334274215
+utm_northing: 4689606.803870345
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82440
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339666666666666
+longitude: -71.09024333333333
+altitude: 13.9
+utm_easting: 327811.0667329526
+utm_northing: 4689606.090588827
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82441
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33966
+longitude: -71.090255
+altitude: 13.9
+utm_easting: 327810.08742445987
+utm_northing: 4689605.373932282
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82442
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33965333333333
+longitude: -71.09026833333333
+altitude: 13.8
+utm_easting: 327808.9708142211
+utm_northing: 4689604.66065109
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82443
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339648333333336
+longitude: -71.09028166666667
+altitude: 13.8
+utm_easting: 327807.8587532858
+utm_northing: 4689604.132440782
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82444
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339641666666665
+longitude: -71.09029666666666
+altitude: 13.7
+utm_easting: 327806.60484104976
+utm_northing: 4689603.422535194
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82445
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339636666666664
+longitude: -71.09031166666666
+altitude: 13.6
+utm_easting: 327805.3554781523
+utm_northing: 4689602.897700539
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82446
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33963166666667
+longitude: -71.09032166666667
+altitude: 13.6
+utm_easting: 327804.5180198228
+utm_northing: 4689602.362740177
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82447
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33962666666667
+longitude: -71.09033333333333
+altitude: 13.7
+utm_easting: 327803.5432597645
+utm_northing: 4689601.831155231
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82448
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339625
+longitude: -71.09034666666666
+altitude: 13.9
+utm_easting: 327802.44029729237
+utm_northing: 4689601.673087192
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82449
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339621666666666
+longitude: -71.09035833333333
+altitude: 13.9
+utm_easting: 327801.4700866685
+utm_northing: 4689601.326573245
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82450
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.33962
+longitude: -71.09036833333333
+altitude: 13.8
+utm_easting: 327800.64172728313
+utm_northing: 4689601.161754763
+zone: 19
+letter: T
+---
+header:
+  stamp:
+    sec: 82451
+    nanosec: 0
+  frame_id: GPS1_Frame
+latitude: 42.339616666666664
+longitude: -71.09037833333333
+altitude: 13.8
+utm_easting: 327799.8088181093
+utm_northing: 4689600.811865662
+zone: 19
+letter: T
+---
