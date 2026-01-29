@@ -1,0 +1,46 @@
+# Bag files (keep private)
+*.bag
+*.db3
+*.mcap
+
+# Large point cloud files (optional - comment out if you want to include them)
+# *.pcd
+# *.ply
+
+# Large files that exceed GitHub's 100MB limit
+docs/LIO-SAM with SPOT.pptx
+videos/SPOT_High-bay.mp4
+
+# Videos will be included in git (except the large ones above)
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# ROS
+build/
+devel/
+install/
+.catkin_workspace
+*.bag.active
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log/
