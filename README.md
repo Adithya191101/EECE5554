@@ -295,10 +295,20 @@ We would like to continue working on this project and address the following:
 
 ## 💾 Data Access
 
-### Google Drive
-All collected data, videos, images, and documentation are available at:
+### Presentation (PPT)
+**Full Presentation:** [LIO-SAM with SPOT - PowerPoint](https://northeastern-my.sharepoint.com/:p:/g/personal/mistry_dhy_northeastern_edu/EWOt-jFAwlRNnCoX54vHUCwBgusaLZUnXgaC2cuAEHUhbQ?e=bHdri1)
 
-**[Group 7 Spot Data - Google Drive](https://drive.google.com/drive/folders/1ofWXLbhqu4m_-7foQu_30O7dn41ErS4w?usp=sharing)**
+### ROS Bag Files (Private Access)
+**ROS Bag Data:** [Spot ROS Bags - Google Drive](https://drive.google.com/drive/folders/1RfDmF5F1NT71CK6vqHoIkAE6ASSyUo5E?usp=sharing)
+
+Contains:
+- Raw sensor data (.bag, .mcap files)
+- High Bay recordings
+- EXP building loop data
+- IMU and LiDAR data streams
+
+### Google Drive - General Data
+**All Project Data:** [Group 7 Spot Data - Google Drive](https://drive.google.com/drive/folders/1ofWXLbhqu4m_-7foQu_30O7dn41ErS4w?usp=sharing)
 
 Contents include:
 - High Bay trial data
