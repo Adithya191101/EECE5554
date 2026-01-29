@@ -1,358 +1,93 @@
-# LIO-SAM with SPOT Robot
+# EECE5554
 
-<div align="center">
-  <img src="spot_with_lidar.jpeg" alt="Spot with Velodyne LiDAR" width="600"/>
 
-  **A Journey of Challenges and Progress in Implementing LIO-SAM on Boston Dynamics' Spot**
 
-  [![Northeastern University](https://img.shields.io/badge/Northeastern-University-red)](https://www.northeastern.edu/)
-  [![Boston Dynamics](https://img.shields.io/badge/Boston-Dynamics-yellow)](https://www.bostondynamics.com/)
-</div>
+## Getting started
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Team Members](#team-members)
-- [Motivation](#motivation)
-- [What is LIO-SAM](#what-is-lio-sam)
-- [Methodology](#methodology)
-- [Progress and Achievements](#progress-and-achievements)
-- [Challenges Faced](#challenges-faced)
-- [Results](#results)
-- [Future Work](#future-work)
-- [References](#references)
-- [Data Access](#data-access)
+To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-## 🎯 Overview
+Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-This project implements the **LIO-SAM (LiDAR-Inertial Odometry with Smoothing and Mapping)** algorithm on data collected from Boston Dynamics' Spot robot, aiming to achieve high-precision 3D mapping and localization in dynamic, GPS-denied environments.
+## Add your files
 
-We implemented the LIO-SAM algorithm on data collected from the Spot robot to create accurate 3D maps of indoor environments. Although the project encountered several challenges, we made substantial progress in understanding the algorithm, collecting high-quality datasets, and resolving technical issues.
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-<div align="center">
-  <img src="point_cloud_map.jpeg" alt="Point Cloud Map" width="600"/>
-</div>
+```
+cd existing_repo
+git remote add origin https://gitlab.com/rajendran.ad/EECE5554.git
+git branch -M main
+git push -uf origin main
+```
 
-## 👥 Team Members
+## Integrate with your tools
 
-**Group 7:**
-- Dhyey Mistry
-- Yash Wakde
-- Adithya Rajendran
-- Kevin Jason
+- [ ] [Set up project integrations](https://gitlab.com/rajendran.ad/EECE5554/-/settings/integrations)
 
-**Course:** EECE5554 - Robotics Sensing and Navigation
-**Institution:** Northeastern University
-**GitLab Username:** mistry.dhy
+## Collaborate with your team
 
-## 💡 Motivation
+- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
+- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
+- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
-Boston Dynamics' Spot robot is transforming how organizations monitor and operate their sites, ensuring team safety and enabling data-driven decisions. Key applications include:
+## Test and Deploy
 
-- **Industrial Inspection:** Manufacturing facilities, oil & gas installations
-- **Construction Monitoring:** Site surveillance and progress tracking
-- **Disaster Response:** Search and rescue operations in hazardous environments
-- **Autonomous Navigation:** GPS-denied areas like tunnels and underground facilities
+Use the built-in continuous integration in GitLab.
 
-By integrating Spot with advanced SLAM algorithms like LIO-SAM, we can extend its capabilities for precise localization and mapping in challenging environments where GPS is unavailable or unreliable.
+- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
+- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
+- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
+- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
+- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
-## 🔬 What is LIO-SAM?
+***
 
-**LIO-SAM (LiDAR-Inertial Odometry with Smoothing and Mapping)** is a state-of-the-art SLAM algorithm that combines data from LiDAR and IMU sensors to achieve accurate and robust 3D mapping and localization.
+# Editing this README
 
-### Key Features:
+When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-1. **Tight Integration of LiDAR and IMU**
-   - Uses LiDAR for spatial accuracy
-   - IMU provides motion compensation
-   - Enables precise localization in GPS-denied environments
+## Suggestions for a good README
 
-2. **Factor Graph Optimization**
-   - Builds a factor graph to optimize poses and trajectories
-   - Ensures global consistency
-   - Minimizes drift over time
+Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-3. **Real-Time Performance**
-   - Capable of real-time odometry and mapping
-   - Suitable for mobile robotics applications
+## Name
+Choose a self-explaining name for your project.
 
-4. **Loop Closure Detection**
-   - Detects when the robot revisits an area
-   - Corrects drift and improves map consistency
+## Description
+Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-### Why LIO-SAM?
+## Badges
+On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-| Feature | LOAM | LIOM | **LIO-SAM** |
-|---------|------|------|-------------|
-| **Sensor Fusion** | Relies mostly on LiDAR | Loosely integrates LiDAR with IMU | **Tightly integrates LiDAR and IMU** |
-| **Optimization** | No global smoothing (ICP-like) | Loosely optimized over poses | **Factor graph-based global smoothing** |
-| **Real-time Capability** | Efficient for real-time | Moderate performance | **High real-time performance** |
-| **Accuracy** | Good in LiDAR-dominant environments | Better than LOAM due to IMU | **Best, especially in dynamic motion** |
-| **Robustness** | Moderate | Better than LOAM | **High robustness in fast/dynamic motions** |
-| **Loop Closure** | Limited | Improved | **Strong with backend optimization** |
-| **Implementation** | Computationally efficient but lacks smoothing | Computationally heavier | **Balance of efficiency and accuracy** |
+## Visuals
+Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-## 🛠️ Methodology
+## Installation
+Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-### Algorithm Overview
+## Usage
+Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-The LIO-SAM algorithm operates through a systematic pipeline:
+## Support
+Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
-#### Input Sensors:
-- **IMU:** Captures motion data (orientation, acceleration)
-- **LiDAR:** Generates 3D point clouds of the environment
-- **GPS (Optional):** Provides additional global positioning constraints
+## Roadmap
+If you have ideas for releases in the future, it is a good idea to list them in the README.
 
-#### Data Processing:
-1. **IMU Pre-integration:** Estimates motion trajectories between successive scans
-2. **LiDAR Feature Extraction:** Identifies edge and planar features for localization
-3. **Factor Graph Construction:** Combines constraints from IMU, LiDAR, GPS, and loop closure
+## Contributing
+State if you are open to contributions and what your requirements are for accepting them.
 
-#### Output:
-- Produces a globally consistent 3D map
-- Accurate pose estimates in real-time
+For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
 
-### Hardware Setup
+You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
-#### Configuration 1: Spot with Onboard Velodyne LiDAR
-- Boston Dynamics Spot robot
-- Velodyne VLP-16 Puck LiDAR
-- Spot's internal IMU
+## Authors and acknowledgment
+Show your appreciation to those who have contributed to the project.
 
-#### Configuration 2: Custom Rig (Final Setup)
-- Boston Dynamics Spot robot
-- Jetson Nano compute module
-- LiDAR sensor
-- VectorNav IMU
-- Multiple cameras
+## License
+For open source projects, say how it is licensed.
 
-## 📈 Progress and Achievements
-
-### 1. Research Phase
-✅ Reviewed the foundational paper: "LIO-SAM: Tightly-Coupled Lidar Inertial Odometry via Smoothing and Mapping"
-✅ Analyzed existing implementations and GitHub repositories
-✅ Understood factor graph optimization and sensor fusion principles
-
-### 2. Implementation Phase
-✅ Successfully implemented LIO-SAM on KITTI dataset (MIT campus)
-✅ Applied loop closure detection - achieved improved map consistency
-✅ Generated high-quality point cloud visualizations in RViz
-
-### 3. Data Collection
-✅ Collected trial dataset in High Bay environment
-✅ Obtained clean point cloud data with excellent detail
-✅ Deployed custom rig with external sensors on Spot
-✅ Successfully recorded data around EXP building with loop closures
-
-### 4. System Integration
-✅ Integrated custom rig with Jetson Nano, LiDAR, and VectorNav IMU
-✅ Established ROS2 compatibility
-✅ Resolved timestamp synchronization issues
-✅ Learned to work with both ROS1 and ROS2 environments
-
-### 5. Technical Problem Solving
-✅ Discovered ROS2 support for LIO-SAM (Ubuntu 22.04, ROS2 Humble)
-✅ Learned to work with .mcap bag files directly
-✅ Modified algorithm parameters for custom sensor configurations
-✅ Enhanced understanding of transform frames (TF) and their relationships
-
-## 🚧 Challenges Faced
-
-### 1. Data Compatibility Issues
-
-**Problem:** Spot's IMU messages lacked required ring and intensity data
-- Even though rings were visible in RViz, the data format wasn't compatible with LIO-SAM
-- Custom driver had timestamp synchronization issues
-
-**Attempted Solutions:**
-- Tried extracting IMU data from Spot's SDK
-- Attempted using quaternion values from odometry messages
-- Created custom scripts to convert data formats
-
-### 2. Sensor Compatibility
-
-**Problem:** LIO-SAM was designed for Microstrain IMUs, but we used VectorNav IMU
-- The package couldn't properly receive VectorNav IMU data
-- Encountered "Waiting for IMU data..." errors repeatedly
-
-**Solution:**
-- Deployed external VectorNav IMU on custom rig
-- Modified algorithm parameters in configuration files
-
-### 3. Transform Frame (TF) Errors
-
-**Problem:** World and device TF created a loop instead of proper hierarchy
-- Caused "No transform from [world] to [map]" errors
-- Prevented proper pose estimation
-
-**Current Status:** Ongoing debugging and investigation
-
-### 4. ROS Version Compatibility
-
-**Problem:** Initially thought LIO-SAM only supported ROS1
-- Attempted to convert ROS2 bags (.mcap) to ROS1 bags (.db3)
-- Conversion process was complex and time-consuming
-
-**Solution:**
-- Discovered ROS2 Humble support for LIO-SAM
-- Learned to work directly with .mcap files
-
-### 5. Missing Data Fields
-
-**Problem:** Point cloud data missing ring and intensity values required by LIO-SAM
-- Tried adding dummy values - didn't work
-- Multiple compatibility errors across different devices
-
-## 📊 Results
-
-### Achievements
-
-1. **Algorithm Validation**
-   - Successfully demonstrated LIO-SAM functionality on KITTI dataset
-   - Achieved real-time loop closure and mapping
-   - Generated high-quality point clouds and consistent maps
-
-2. **Data Collection Success**
-   - Captured detailed maps of High Bay environment
-   - Recorded comprehensive dataset around EXP building
-   - Produced high-quality visualizations in RViz
-   - Learned Spot operation, sensor integration, and data processing
-
-3. **Hardware Integration**
-   - Tested both Spot GXP (General Expansion Payload) and external rig
-   - Successfully deployed Jetson Nano + LiDAR + VectorNav IMU system
-   - Established robust data acquisition pipeline
-
-### Lessons Learned
-
-1. **Algorithmic Understanding**
-   - Enhanced knowledge of factor graph optimization
-   - Deepened understanding of sensor fusion techniques
-   - Developed skills to adapt algorithms for diverse hardware
-
-2. **Team Collaboration**
-   - Fostered problem-solving through iterative debugging
-   - Collaboration within team and across other project teams
-   - Effective time management and task distribution
-
-3. **Technical Skills**
-   - ROS1 and ROS2 environment setup and troubleshooting
-   - Docker and virtual environment management
-   - Transform frame debugging and visualization
-   - Data format conversion and manipulation
-
-### Limitations
-
-1. **Hardware Constraints**
-   - Dependency on specific IMU sensors limited flexibility
-   - Sensor compatibility issues with original Spot configuration
-
-2. **Software Issues**
-   - Transform frame errors hindered progress
-   - Data integration challenges in certain environments
-   - IMU data not being received properly by LIO-SAM package
-
-## 🔮 Future Work
-
-We would like to continue working on this project and address the following:
-
-### 1. Immediate Goals
-- [ ] Resolve IMU data reception issues with VectorNav
-- [ ] Fix transform frame loops and hierarchy errors
-- [ ] Successfully implement LIO-SAM on recorded EXP building data
-- [ ] Achieve loop closure on real Spot data
-
-### 2. Advanced Testing
-- [ ] Evaluate LIO-SAM in multi-floor environments
-- [ ] Test in NEU tunnel system (original plan)
-- [ ] Assess scalability in larger environments
-- [ ] Compare results with other SLAM algorithms (LOAM, LIOM, RTAB-Map)
-
-### 3. Algorithm Improvements
-- [ ] Make LIO-SAM more sensor-agnostic
-- [ ] Support diverse IMU and LiDAR configurations
-- [ ] Optimize for real-time performance on edge devices
-- [ ] Enhance robustness in highly dynamic environments
-
-### 4. Applications
-- [ ] Autonomous navigation in GPS-denied areas
-- [ ] Multi-robot SLAM and mapping
-- [ ] Integration with path planning algorithms
-- [ ] Real-time obstacle detection and avoidance
-
-## 📚 References
-
-1. T. Shan, B. Englot, D. Meyers, W. Wang, C. Ratti, and D. Rus, **"LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping"**, 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Las Vegas, NV, USA, 2020.
-
-2. LIO-SAM GitHub Repository: [https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
-
-3. LIO-SAM ROS2 Support: [https://github.com/TixiaoShan/LIO-SAM/tree/ros2](https://github.com/TixiaoShan/LIO-SAM/tree/ros2)
-
-4. Research Paper: [https://ras.papercept.net/images/temp/IROS/files/0063.pdf](https://ras.papercept.net/images/temp/IROS/files/0063.pdf)
-
-5. Boston Dynamics Developer Documentation: [https://dev.bostondynamics.com/docs/python/quickstart](https://dev.bostondynamics.com/docs/python/quickstart)
-
-6. Spot ROS2 Integration: [https://github.com/bdaiinstitute/spot_ros2](https://github.com/bdaiinstitute/spot_ros2)
-
-## 💾 Data Access
-
-### Presentation (PPT)
-**Full Presentation:** [LIO-SAM with SPOT - PowerPoint](https://northeastern-my.sharepoint.com/:p:/g/personal/mistry_dhy_northeastern_edu/EWOt-jFAwlRNnCoX54vHUCwBgusaLZUnXgaC2cuAEHUhbQ?e=bHdri1)
-
-### ROS Bag Files (Private Access)
-**ROS Bag Data:** [Spot ROS Bags - Google Drive](https://drive.google.com/drive/folders/1RfDmF5F1NT71CK6vqHoIkAE6ASSyUo5E?usp=sharing)
-
-Contains:
-- Raw sensor data (.bag, .mcap files)
-- High Bay recordings
-- EXP building loop data
-- IMU and LiDAR data streams
-
-### Google Drive - General Data
-**All Project Data:** [Group 7 Spot Data - Google Drive](https://drive.google.com/drive/folders/1ofWXLbhqu4m_-7foQu_30O7dn41ErS4w?usp=sharing)
-
-Contents include:
-- High Bay trial data
-- EXP building loop recordings
-- Point cloud visualizations
-- RViz screenshots
-- Video demonstrations
-- Research papers and documentation
-
-### GitLab
-Modified algorithm files and configuration scripts:
-- **GitLab Username:** mistry.dhy
-
-## 🎓 Acknowledgments
-
-We would like to express our gratitude to:
-
-- **Professor Hanumant Singh** - For providing this incredible opportunity to work with Spot and guiding us throughout the project
-- **Jasen Mackie** (TA) - For continuous support and technical assistance
-- **Vishnu** (TA) - For always being available and helpful
-- **Northeastern University Robotics Lab** - For providing access to Spot and equipment
-- **Other Project Teams** - For collaboration and knowledge sharing
-
-## 📝 Conclusion
-
-This project has been an incredible learning journey. Despite not achieving our initial goal of full LIO-SAM implementation on Spot data due to IMU compatibility issues, we:
-
-- Gained deep understanding of SLAM algorithms and factor graph optimization
-- Successfully validated LIO-SAM on standard datasets
-- Collected high-quality datasets with multiple sensor configurations
-- Developed problem-solving skills through debugging complex issues
-- Learned to work with advanced robotics platforms like Spot
-- Enhanced our knowledge of ROS, sensor fusion, and data processing
-
-**"There are many things that we didn't explicitly explain... Because of the time constraints and also including that would make this more like a manual and less like a report. We think that facing all those challenges has taught us a lot, it is good that we had problems because, without challenges and errors, there is no learning."**
-
----
-
-<div align="center">
-
-  **Northeastern University**
-  EECE5554 - Robotics Sensing and Navigation
-  Fall 2024
-
-  Made with 🤖 by Group 7
-
-</div>
+## Project status
+If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
